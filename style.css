@@ -1,18 +1,26 @@
 body {
-    background-color: #E5D9F2;
+    background-color: rgb(247,209,205);
+    background: linear-gradient(135deg, rgba(247,209,205,1) 0%, rgba(209,179,196,1) 40%, rgba(209,179,196,1) 60%, rgba(179,146,172,1) 92%);
     font-family: 'Lato', sans-serif;
+    min-height: 100vh;
 }
 
 #navbarMain .navbar-brand {
-    color: #7371FC;
+    color: #b392ac;
+    text-shadow: 1px 1px 1px #735d78;
+    font-weight: 300;
 }
 
 #navbarMain .nav-link {
     color: white;
+    
 }
 
 #navbarMain .nav-link:hover {
-    color: #7371FC;
+    color: #b392ac;
+    border-bottom: 3px solid #735d78;
+    padding-bottom: 1px;
+    text-shadow: 1px 1px 1px #735d78bb;
 }
 #navbarMain {
     font-size: 1.5rem;
@@ -38,4 +46,8 @@ p.slidertext {
 
 h5 {
     text-shadow:1px 1px 2px black;
+}
+
+.footer {
+    background-color: transparent;
 }
